@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="charity_profile.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Charity Profile</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="charities.html">Volunteer</a></li>
+                <li><a href="charity_profile.html">Get Involved</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <section class="charity-info">
+                <div class="charity-details">
+                    <h1>Charity Name</h1>
+                    <img src="shutterstock_428931997-e1543504561281-thegem-blog-default.jpeg" alt="Volunteering">
+                    <p>Discover meaningful volunteer opportunities and make a difference in your local community.</p>
+                    <div class="buttons">
+                        <button type="button" onclick="alert('Thanks for joining!')">Join</button>
+                        <button type="button" onclick="alert('Learn More Here!')">Learn More</button>
+                    </div>
+                </div>
+            </section>
+            <section class="photo-gallery">
+                <h1>Explore Our Volunteering Opportunites</h1>
+                    <div class="gallery-images">
+                        <img src="c3507d69-d9b9-4c0b-bbea-2584aab009ef_ea1954e3.jpg" alt="Gallery Image 1">
+                        <img src="shutterstock_428931997-e1543504561281-thegem-blog-default.jpeg" alt="Gallery Image 2" style="display: none;">
+                        <img src="image347.jpg" alt="Gallery Image 3" style="display: none;">
+                    </div>
+                    <div class="gallery-controls">
+                        <button class="prev-button">Previous</button>
+                        <button class="next-button">Next</button>
+                    </div>
+                </section>
+            <section class="benefits">
+                <h1>Benefits of Volunteering with Local Charities</h1>
+                <ul class="benefits-list">
+                    <li>
+                        <img src="image347.jpg" alt="Volunteering" width="600" height="500">
+                        <h3>Find Your Perfect Volunteer Opportunity on HelpHub</h3>
+                        <p>Browse through our extensive list of charities and find the perfect opportunity to make a difference in your community.</p>
+                    </li>
+                    <li>
+                        <img src="image347.jpg" alt="Volunteering" width="600" height="500">
+                        <h3>Make a Lasting Impact with HelpHub's Volunteer Opportunities</h3>
+                        <p>Explore our list of charities and start making a positive change today.</p>
+                    </li>
+                    <li>
+                        <img src="image347.jpg" alt="Volunteering" width="600" height="500">
+                        <h3>HelpHub: Your Gateway to Community Engagement and Giving Back</h3>
+                        <p>Start your journey towards community engagement and giving back with HelpHub.</p>
+                    </li>
+                </ul>
+                <button type="button">Volunteer Now</button>
+            </section>
+            
+        
+            <section class="donation-form">
+                <h1>Donation Form</h1>
+                <form action="donate.php" method="post">
+                    <label for="amount">Donation Amount:</label>
+                    <input type="text" id="amount" name="amount"><br><br>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <button type="submit">Donate</button>
+                </form>
+            </section>
+        <section class="contact-info">
+            <div>
+                <h1>Email</h1>
+                <p>Feel free to reach out to us for any questions or support you may need.</p>
+                <p>help@helphub.com</p>
+            </div>
+            <div>
+                <h1>Phone</h1>
+                <p>Give us a call if you prefer to speak with someone directly.</p>
+                <p>+1(555)123-4567</p>
+            </div>
+            <div>
+                <h1>Office</h1>
+                <p>Visit our office during business hours for a face-to-face conversation.</p>
+                <p>123 Main Street, Anytown, USA</p>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Privacy Policy</a></li>
+                <li><a href="charities.html">Terms of Service</a></li>
+                <li><a href="charity_profile.html">Cookies Settings</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 HelpHub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

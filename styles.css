@@ -1,0 +1,316 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.2;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header, footer {
+    background-color: #034104;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4a960c;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #67f85c;
+}
+
+button {
+    border-radius: 5px;
+    outline: none;
+}
+
+button:focus {
+    box-shadow: 0 0 0 2px #ffc107;
+}
+
+.product {
+    display: inline-block;
+    width: 200px; /* Adjust the width as needed */
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product span {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2em;
+}
+
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.contact-info div {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #666;
+}
+.faq-section {
+    padding: 20px;
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+.faq h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.faq p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+main {
+    padding: 20px;
+}
+
+.charity-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.charity-details {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.charity-details h1 {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.charity-gallery {
+    flex: 1;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-gallery img {
+    width: calc(33.33% - 10px);
+}
+
+.benefits {
+    margin-bottom: 50px;
+}
+
+.benefits h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.benefits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits-list li {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.benefits-list img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.benefits-list h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.benefits-list p {
+    margin-bottom: 10px;
+}
+
+
+.donation-form {
+    margin-bottom: 50px;
+}
+.donation-form {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.donation-form form {
+    display: inline-block;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.volunteer-form {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.volunteer-form h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.benefits-gallery {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.gallery-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-image:not(:first-child) {
+    transform: translateX(100%);
+}
+
+.gallery-controls {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.prev-button,
+.next-button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.prev-button:hover,
+.next-button:hover {
+    background-color: #f0f0f0;
+}
